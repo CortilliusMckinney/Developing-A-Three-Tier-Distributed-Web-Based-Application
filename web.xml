@@ -1,0 +1,30 @@
+<web-app>
+
+   <!-- General description of your Web application -->
+   <display-name>
+      CNT 4714 Project 4
+   </display-name>
+
+   <description>
+        Implementation of the three-tier Project4 for CNT 4714
+   </description>
+
+   <!-- Servlet definitions -->
+    <servlet>
+      <servlet-name>project4</servlet-name>
+      <description>
+         The servlet that handles an HTTP request containing SQL.
+      </description>
+      <servlet-class>Project4Servlet</servlet-class>
+   </servlet>
+
+
+   <!-- Servlet mappings -->
+   <servlet-mapping>
+      <servlet-name>project4</servlet-name>
+      <url-pattern>/MySQLServlet</url-pattern>
+   </servlet-mapping>
+
+
+</web-app>
+
